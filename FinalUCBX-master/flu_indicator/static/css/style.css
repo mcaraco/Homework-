@@ -1,0 +1,276 @@
+/* ADDS GOOGLE FONT */
+@import url('https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu&display=swap');
+
+body {
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Lato';
+  background: rgb(255, 255, 255);
+}
+/* NAVBAR */
+.navbar-nav > li{
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+.navbar-brand {
+  font-family: 'Righteous';
+  font-size: 35px;
+  color: rgb(255, 255, 255) !important;
+  transition: all 0.5s ease-in;
+  padding-left: 15px;
+}
+.navbar-brand:hover {
+  color: rgb(234, 131, 255) !important;
+}
+.nav-link {
+  font-size: 16px;
+  margin: 15px;
+  color: rgb(255, 255, 255) !important;
+  font-family: 'Roboto Condensed';
+  transition: all 0.5s ease-in;
+}
+.nav-link:hover {
+  color: rgb(234, 131, 255) !important;
+}
+.navbar .navbar-collapse {
+  text-align: center;
+}
+.navbar .navbar-toggler {
+  margin-right: 30px;
+  background-color: rgb(234, 131, 255);
+}
+.navbar {
+  background: #2D0A72;
+  background: -moz-linear-gradient(left, #2D0A72 0%, rgb(92, 42, 207) 100%);
+  background: -webkit-linear-gradient(left, #2D0A72 0%, rgb(92, 42, 207) 100%);
+  background: linear-gradient(to right, #2D0A72 0%, rgb(92, 42, 207) 100%);
+}
+
+
+.container-fluid {
+  padding-left: 7%;
+  padding-right: 7%;
+}
+
+
+
+.carousel {
+  width:110%;
+  height:110%;
+}
+
+/* predictor_map PAGE */
+/* Tableau ILI Patients Per State Map */
+#viz1564284286933{
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 60%;
+}
+
+#viz1564945152043{
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 60%;
+}
+
+/* #viz1564959773292{
+  padding-top: 15px;
+  padding-left: 100px;
+  padding-right: 100px;
+  width: 100%;
+} */
+
+
+
+
+/* google_trends PAGE */
+h1 {
+  padding-top: 1%;
+  font-family: 'Righteous';
+  color: rgb(109, 64, 216) !important;
+  text-shadow: 1px 2px 2px rgb(234, 131, 255);
+}
+h2 {
+  padding-top: 10px;
+  font-family: 'Righteous';
+  color: rgb(109, 64, 216) !important;
+  text-shadow: 1px 2px 2px rgb(234, 131, 255);
+}
+hr {
+  width: 50%;
+  align-content: center;
+  border-top: 2px solid #8f8f8f;
+  padding-top: 25px;
+}
+.card{
+  border: white;
+  size: 100%;
+}
+p {
+  align-content: center;
+  padding-bottom: 50px;
+  color: #2D0A72 !important;
+  font-size: 15px;
+}
+.lead {
+  font-size: 15px;
+}
+.btn-outline-info {
+  color: #2D0A72;
+  border-color: rgb(109, 64, 216);
+}
+.btn {
+  align-content: center;
+}
+.btn:hover {
+  background-color: #2D0A72;
+  border-color: rgb(109, 64, 216);
+  color: rgb(234, 131, 255);
+}
+
+a {
+  color: #2D0A72;
+  text-decoration: none;
+  background-color: transparent;
+  font-size: 14px;
+}
+
+
+/* FontAwesome for working BootSnippet :> */
+
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+#team {
+    background: rgb(255, 255, 255) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background-color: #2D0A72;
+    border-color: rgb(109, 64, 216);
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2D0A72;
+    border-color: rgb(109, 64, 216);
+}
+
+section {
+    padding: 10px 0;
+}
+
+section .section-title {
+    text-align: center;
+    color: #2D0A72;
+    margin-bottom: 50px;
+    text-transform: uppercase;
+}
+
+#team .card {
+    border: none;
+    background: #f1f1f1;
+}
+#team {
+  background: rgb(255, 255, 255) !important;
+}
+.image-flip:hover .backside,
+.image-flip.hover .backside {
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+    border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside {
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+}
+
+.mainflip {
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -moz-transition: 1s;
+    -moz-transform: perspective(1000px);
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+    position: relative;
+}
+
+.frontside {
+    position: relative;
+    -webkit-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    z-index: 2;
+    margin-bottom: 30px;
+}
+
+.backside {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(234, 131, 255) !important;
+    -webkit-transform: rotateY(-180deg);
+    -moz-transform: rotateY(-180deg);
+    -o-transform: rotateY(-180deg);
+    -ms-transform: rotateY(-180deg);
+    transform: rotateY(-180deg);
+    /* -webkit-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    -moz-box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+    box-shadow: 5px 7px 9px -4px rgb(158, 158, 158); */
+}
+
+.frontside,
+.backside {
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transition: 1s;
+    -moz-transform-style: preserve-3d;
+    -o-transition: 1s;
+    -o-transform-style: preserve-3d;
+    -ms-transition: 1s;
+    -ms-transform-style: preserve-3d;
+    transition: 1s;
+    transform-style: preserve-3d;
+}
+
+.frontside .card,
+.backside .card {
+    min-height: 312px;
+}
+
+.backside .card a {
+    font-size: 18px;
+    color: #2D0A72 !important;
+}
+
+.frontside .card .card-title,
+.backside .card .card-title {
+    color: #2D0A72 !important;
+}
+
+.frontside .card .card-body img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+
+
